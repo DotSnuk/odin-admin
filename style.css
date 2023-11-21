@@ -1,1 +1,57 @@
 /* css style-sheet */
+
+/* color palette https://tailwindcss.com/docs/customizing-colors
+
+google add own name to custom colors css
+sky
+#f0f9ff
+#e0f2fe
+#bae6fd
+#7dd3fc
+#38bdf8
+#0ea5e9
+#0284c7
+#0369a1
+#075985
+#0c4a6e
+#082f49
+
+lime
+#f7fee7
+#ecfccb
+#d9f99d
+#bef264
+#a3e635
+#84cc16
+#65a30d
+#4d7c0f
+#3f6212
+#365314
+#1a2e05
+*/
+
+/*
+perhaps
+:root {
+    --sky-00: #f0f9ff
+}
+*/
+
+html, body {
+    height: 100%;
+}
+.container {
+    display: grid;
+    border: 1px solid black;
+    grid-template-columns: 1fr 4fr;
+}
+.sidebar {
+    grid-column: 1 / 2;
+}
+.header {
+    grid-column: 2 / 3;
+}
+.content {
+    grid-column: 2 / 3;
+    display: grid;
+}
