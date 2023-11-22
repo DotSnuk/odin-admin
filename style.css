@@ -36,6 +36,32 @@ perhaps
     --sky-00: #f0f9ff
 }
 */
+:root {
+    --sky-00: #f0f9ff;
+    --sky-01 :#e0f2fe;
+    --sky-02: #bae6fd;
+    --sky-03: #7dd3fc;
+    --sky-04: #38bdf8;
+    --sky-05: #0ea5e9;
+    --sky-06: #0284c7;
+    --sky-07: #0369a1;
+    --sky-08: #075985;
+    --sky-09: #0c4a6e;
+    --sky-10: #082f49;
+
+    --lime-00: #f7fee7;
+    --lime-01: #ecfccb;
+    --lime-02: #d9f99d;
+    --lime-03: #bef264;
+    --lime-04: #a3e635;
+    --lime-05: #84cc16;
+    --lime-06: #65a30d;
+    --lime-07: #4d7c0f;
+    --lime-08: #3f6212;
+    --lime-09: #365314;
+    --lime-10: #1a2e05;
+
+}
 
 html, body {
     height: 100%;
@@ -44,6 +70,7 @@ html, body {
     display: grid;
     border: 1px solid black;
     grid-template-columns: 1fr 4fr;
+    background-color: var(--sky-02);
 }
 .sidebar {
     grid-column: 1 / 2;
