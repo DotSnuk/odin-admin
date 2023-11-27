@@ -50,8 +50,10 @@ html, body {
 .container {
     display: grid;
     grid-template-columns: 1fr 4fr;
+    grid-template-rows: 200px 1fr;
     padding: 0;
     margin: 0;
+    height: 100vh;
 }
 .sidebar {
     grid-column: 1 / 2;
@@ -190,6 +192,10 @@ input[type="button"]{
     gap: 5px;
     z-index: 0;
     background-color: var(--color-04);
+}
+.projects > .post {
+    display: grid;
+    grid-template-rows: 4fr 1fr;
 }
 .post, .trend {
     background-color: var(--color-01);
